@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="fill_parent"
+        android:layout_height="96px"
+        android:background="#e60012"
+        android:gravity="center"
+        android:padding="4dp" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#00000000"
+            android:text="返回"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:text="加盟燕泥"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_idea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/head"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/banner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/banner" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tip3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/banner"
+                    android:layout_marginTop="50px"
+                    android:text="加盟流程：" />
+
+                <TextView
+                    android:id="@+id/tip4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip3"
+                    android:layout_marginTop="50px"
+                    android:text="1：首先您拥有一部安卓系统手机" />
+
+                <TextView
+                    android:id="@+id/tip5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip4"
+                    android:layout_marginTop="50px"
+                    android:text="2：下载燕泥到家APP客户端" />
+
+                <TextView
+                    android:id="@+id/tip6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip5"
+                    android:layout_marginTop="50px"
+                    android:text="3：登录客户端提交资料，在线生成您独有二维码" />
+
+                <TextView
+                    android:id="@+id/tip7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip6"
+                    android:layout_marginTop="50px"
+                    android:text="4：公司为您制作带二微码色板" />
+
+                <TextView
+                    android:id="@+id/tip8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip7"
+                    android:layout_marginTop="50px"
+                    android:text="5：收到色板，您将二维码色板摆放在店铺显眼处，并对感兴趣客户加以介绍导购" />
+
+                <TextView
+                    android:id="@+id/tip9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip8"
+                    android:layout_marginTop="50px"
+                    android:text="6：客户进行扫描二维码在线预约下单" />
+
+                <TextView
+                    android:id="@+id/tip10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip9"
+                    android:layout_marginTop="50px"
+                    android:text="7：这时您的手机APP客户端会提醒有客户下单" />
+
+                <TextView
+                    android:id="@+id/tip11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip10"
+                    android:layout_marginTop="50px"
+                    android:text="8：公司按预约日期安排施工人员上门施工" />
+
+                <TextView
+                    android:id="@+id/tip12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip11"
+                    android:layout_marginTop="50px"
+                    android:text="9：施工完毕，交易成功" />
+
+                <TextView
+                    android:id="@+id/tip13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip12"
+                    android:layout_marginTop="50px"
+                    android:text="10：每单200元佣金会通过微信，支付宝或银行转账到您指定的账户本次订单结束" />
+
+                <TextView
+                    android:id="@+id/tip14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip13"
+                    android:layout_marginTop="50px"
+                    android:text="声明：不排除有的客户预约下单后，由于各种原因取消订单的情况，公司本着长远合作，不会扣留合作伙伴的佣金。感谢理解" />
+
+                <Button
+                    android:id="@+id/btn_tel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip14"
+                    android:text="拨打  4006908781" />
+
+                <ImageView
+                    android:id="@+id/yanni"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/yanni" >
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tip13"
+                    android:layout_marginTop="50px"
+                    android:text="此二维码可下载商户端APP" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/heng"
+        android:layout_width="wrap_content"
+        android:layout_height="20px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TimeAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/Commission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/heng2"
+        android:layout_width="wrap_content"
+        android:layout_height="20px" >
+    </TextView>
+
+</LinearLayout>
