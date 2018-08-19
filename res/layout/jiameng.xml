@@ -29,7 +29,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:background="#00000000"
-            android:text="加盟燕泥"
+            android:text="加盟华屋"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tip4"
                     android:layout_marginTop="50px"
-                    android:text="2：下载燕泥到家APP客户端" />
+                    android:text="2：下载华屋到家APP客户端" />
 
                 <TextView
                     android:id="@+id/tip6"

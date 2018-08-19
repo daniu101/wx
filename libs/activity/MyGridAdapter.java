@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class MyGridAdapter extends BaseAdapter {
 	private Context mContext;
 
-	public String[] img_text = { "公司简介", "我的钱包", "加盟燕泥", "业主二维码", "提交资料", "订单详情", "总部电话", "商户端二维码", "施工案例" };
+	public String[] img_text = { "公司简介", "我的钱包", "加盟华屋", "业主二维码", "提交资料", "订单详情", "总部电话", "商户端二维码", "施工案例" };
 	public int[] imgs = { R.drawable.jianjie, R.drawable.qianbao, R.drawable.jiameng, R.drawable.erweima,
 			R.drawable.tijiao, R.drawable.dingdan, R.drawable.tel, R.drawable.qrshop, R.drawable.anli };
 
